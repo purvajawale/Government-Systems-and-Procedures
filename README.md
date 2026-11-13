@@ -12,9 +12,9 @@ This project introduces core features of public administration in India. It uses
 
 The diagram below shows a general file/service workflow. Actual processes vary by department and may be handled through digital systems.
 
-![Illustrative Government Office File / Service Workflow](images/Government-Administrative-Process-Flowchart.svg)
+![Illustrative Government Office File and Service Workflow](images/Government-Administrative-Process-Flowchart.svg)
 
-[View the flowchart](images/Government-Administrative-Process-Flowchart.svg)
+[View or download the SVG flowchart](images/Government-Administrative-Process-Flowchart.svg)
 
 ## Project objectives
 

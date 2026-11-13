@@ -1,53 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000" style="background:#f3f3f3">
-  <text x="700" y="60" text-anchor="middle" font-size="32" font-family="Arial, Helvetica, sans-serif" font-weight="500">Illustrative Government Office File / Service Workflow</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1900" viewBox="0 0 1600 1900" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrative Government Office File and Service Workflow</title>
+  <desc id="desc">Seven stages of an illustrative secretariat request lifecycle, with a clarification loop from examination back to initial scrutiny.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="strokeWidth"><path d="M1,1 L10,6 L1,11" fill="none" stroke="#1d3b68" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <marker id="orangeArrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="strokeWidth"><path d="M1,1 L10,6 L1,11" fill="none" stroke="#df7700" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; }
+      .heading { fill: #1d3b68; font-size: 38px; font-weight: 700; }
+      .subtitle { fill: #505b6b; font-size: 24px; font-style: italic; }
+      .box { fill: #f3f6fa; stroke: #1d3b68; stroke-width: 4; }
+      .boxTitle { fill: #1d3b68; font-size: 26px; font-weight: 700; }
+      .body { fill: #263243; font-size: 20px; }
+      .arrow { stroke: #1d3b68; stroke-width: 4; fill: none; marker-end: url(#arrow); stroke-linecap: round; }
+      .loop { fill: #fff7e8; stroke: #df7700; stroke-width: 3; stroke-dasharray: 12 8; }
+      .loopTitle { fill: #99430d; font-size: 24px; font-weight: 700; }
+      .loopText { fill: #263243; font-size: 18px; }
+    </style>
+  </defs>
+  <rect width="1600" height="1900" fill="#ffffff"/>
+  <text class="heading" x="800" y="62" text-anchor="middle">Illustrative Government Office File &amp; Service Workflow</text>
+  <text class="subtitle" x="800" y="108" text-anchor="middle">Standard lifecycle of an official request under secretariat procedures</text>
 
-  <!-- Main vertical flow -->
-  <g stroke="#000" stroke-width="2.5" fill="#f4f4f4">
-    <rect x="410" y="115" width="580" height="92" rx="0"/>
-    <rect x="410" y="245" width="580" height="92" rx="0"/>
-    <rect x="410" y="375" width="580" height="92" rx="0"/>
-    <rect x="410" y="505" width="580" height="92" rx="0"/>
-    <rect x="410" y="635" width="580" height="92" rx="0"/>
-    <rect x="410" y="765" width="580" height="92" rx="0"/>
-    <rect x="410" y="895" width="580" height="92" rx="0"/>
+  <!-- Main workflow stages -->
+  <g>
+    <rect class="box" x="170" y="165" width="1050" height="145" rx="24"/>
+    <rect x="170" y="165" width="52" height="145" rx="22" fill="#1d3b68"/>
+    <text class="boxTitle" x="695" y="218" text-anchor="middle">1. Receipt &amp; Inward Dak</text>
+    <text class="body" x="695" y="266" text-anchor="middle">Receipt of physical letter, citizen application, or e-Office submission</text>
+
+    <rect class="box" x="170" y="365" width="1050" height="145" rx="24"/>
+    <rect x="170" y="365" width="52" height="145" rx="22" fill="#1d3b68"/>
+    <text class="boxTitle" x="695" y="418" text-anchor="middle">2. Diary Registration &amp; Acknowledgement</text>
+    <text class="body" x="695" y="466" text-anchor="middle">Assignment of unique diary/tracking number and formal acknowledgement</text>
+
+    <rect class="box" x="170" y="565" width="1050" height="145" rx="24"/>
+    <rect x="170" y="565" width="52" height="145" rx="22" fill="#1d3b68"/>
+    <text class="boxTitle" x="695" y="618" text-anchor="middle">3. Initial Scrutiny (Dealing Section)</text>
+    <text class="body" x="695" y="666" text-anchor="middle">Verification of jurisdiction, enclosures, urgency, and completeness</text>
+
+    <rect class="box" x="170" y="765" width="1050" height="145" rx="24"/>
+    <rect x="170" y="765" width="52" height="145" rx="22" fill="#1d3b68"/>
+    <text class="boxTitle" x="695" y="818" text-anchor="middle">4. Examination &amp; Noting</text>
+    <text class="body" x="695" y="866" text-anchor="middle">Rule check, precedent verification, financial check, and draft note</text>
+
+    <rect class="box" x="170" y="965" width="1050" height="145" rx="24"/>
+    <rect x="170" y="965" width="52" height="145" rx="22" fill="#1d3b68"/>
+    <text class="boxTitle" x="695" y="1018" text-anchor="middle">5. Inter-Branch Consultation</text>
+    <text class="body" x="695" y="1066" text-anchor="middle">Referral to Finance, Legal, Vigilance, or technical wings, if required</text>
+
+    <rect x="170" y="1165" width="1050" height="145" rx="24" fill="#e6f4f2" stroke="#008783" stroke-width="4"/>
+    <rect x="170" y="1165" width="52" height="145" rx="22" fill="#008783"/>
+    <text class="boxTitle" x="695" y="1218" text-anchor="middle">6. Competent Authority Approval</text>
+    <text class="body" x="695" y="1266" text-anchor="middle">Submission through prescribed channel for formal sanction or decision</text>
+
+    <rect class="box" x="170" y="1365" width="1050" height="145" rx="24"/>
+    <rect x="170" y="1365" width="52" height="145" rx="22" fill="#1d3b68"/>
+    <text class="boxTitle" x="695" y="1418" text-anchor="middle">7. Issue, Dispatch &amp; Archiving</text>
+    <text class="body" x="695" y="1466" text-anchor="middle">Signed communication dispatched to applicant and indexed in records</text>
   </g>
 
-  <!-- arrows -->
-  <g stroke="#000" stroke-width="2" fill="none">
-    <line x1="700" y1="207" x2="700" y2="245"/>
-    <line x1="700" y1="337" x2="700" y2="375"/>
-    <line x1="700" y1="467" x2="700" y2="505"/>
-    <line x1="700" y1="597" x2="700" y2="635"/>
-    <line x1="700" y1="727" x2="700" y2="765"/>
-    <line x1="700" y1="857" x2="700" y2="895"/>
-
-    <!-- branch from scrutiny to clarification -->
-    <line x1="990" y1="421" x2="1105" y2="421"/>
-    <line x1="1105" y1="421" x2="1105" y2="570"/>
-    <line x1="1105" y1="570" x2="990" y2="570"/>
+  <!-- Downward flow arrows -->
+  <g class="arrow">
+    <line x1="695" y1="312" x2="695" y2="350"/>
+    <line x1="695" y1="512" x2="695" y2="550"/>
+    <line x1="695" y1="712" x2="695" y2="750"/>
+    <line x1="695" y1="912" x2="695" y2="950"/>
+    <line x1="695" y1="1112" x2="695" y2="1150"/>
+    <line x1="695" y1="1312" x2="695" y2="1350"/>
   </g>
 
-  <g fill="#000" font-family="Arial, Helvetica, sans-serif" font-size="26">
-    <text x="700" y="170" text-anchor="middle">Receipt of letter / e-mail / application</text>
-    <text x="700" y="300" text-anchor="middle">Diary number, registration &amp; acknowledgement</text>
-    <text x="700" y="430" text-anchor="middle">Scrutiny by dealing assistant / section</text>
-    <text x="700" y="560" text-anchor="middle">Rule check, facts, records &amp; draft note</text>
-    <text x="700" y="690" text-anchor="middle">Consultation, if required</text>
-    <text x="700" y="820" text-anchor="middle">Competent authority examines &amp; approves</text>
-    <text x="700" y="950" text-anchor="middle">Order / reply issued, dispatched &amp; filed</text>
-
-    <text x="1025" y="452" font-size="22">If clarification / correction is needed:</text>
-    <text x="1035" y="485" font-size="22">return to concerned section or applicant,</text>
-    <text x="1035" y="515" font-size="22">record the reason, and resume processing.</text>
-  </g>
-
-  <!-- arrowheads -->
-  <g fill="#000">
-    <polygon points="700,245 693,232 707,232"/>
-    <polygon points="700,375 693,362 707,362"/>
-    <polygon points="700,505 693,492 707,492"/>
-    <polygon points="700,635 693,622 707,622"/>
-    <polygon points="700,765 693,752 707,752"/>
-    <polygon points="700,895 693,882 707,882"/>
-  </g>
+  <!-- Clarification / query loop -->
+  <rect class="loop" x="1260" y="640" width="300" height="300" rx="24"/>
+  <text class="loopTitle" x="1410" y="700" text-anchor="middle">Clarification /</text>
+  <text class="loopTitle" x="1410" y="732" text-anchor="middle">Query Loop</text>
+  <text class="loopText" x="1410" y="790" text-anchor="middle">If records are incomplete:</text>
+  <text class="loopText" x="1410" y="822" text-anchor="middle">return to section or</text>
+  <text class="loopText" x="1410" y="854" text-anchor="middle">applicant, log objection,</text>
+  <text class="loopText" x="1410" y="886" text-anchor="middle">and resume upon compliance.</text>
+  <path d="M1223 820 C1270 790, 1270 675, 1225 650" fill="none" stroke="#df7700" stroke-width="4" marker-end="url(#orangeArrow)" stroke-linecap="round"/>
+  <path d="M1260 910 C1228 948, 1220 985, 1220 1002" fill="none" stroke="#df7700" stroke-width="4" marker-end="url(#orangeArrow)" stroke-linecap="round"/>
 </svg>
