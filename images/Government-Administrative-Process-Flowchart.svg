@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000" style="background:#f3f3f3">
+  <text x="700" y="60" text-anchor="middle" font-size="32" font-family="Arial, Helvetica, sans-serif" font-weight="500">Illustrative Government Office File / Service Workflow</text>
+
+  <!-- Main vertical flow -->
+  <g stroke="#000" stroke-width="2.5" fill="#f4f4f4">
+    <rect x="410" y="115" width="580" height="92" rx="0"/>
+    <rect x="410" y="245" width="580" height="92" rx="0"/>
+    <rect x="410" y="375" width="580" height="92" rx="0"/>
+    <rect x="410" y="505" width="580" height="92" rx="0"/>
+    <rect x="410" y="635" width="580" height="92" rx="0"/>
+    <rect x="410" y="765" width="580" height="92" rx="0"/>
+    <rect x="410" y="895" width="580" height="92" rx="0"/>
+  </g>
+
+  <!-- arrows -->
+  <g stroke="#000" stroke-width="2" fill="none">
+    <line x1="700" y1="207" x2="700" y2="245"/>
+    <line x1="700" y1="337" x2="700" y2="375"/>
+    <line x1="700" y1="467" x2="700" y2="505"/>
+    <line x1="700" y1="597" x2="700" y2="635"/>
+    <line x1="700" y1="727" x2="700" y2="765"/>
+    <line x1="700" y1="857" x2="700" y2="895"/>
+
+    <!-- branch from scrutiny to clarification -->
+    <line x1="990" y1="421" x2="1105" y2="421"/>
+    <line x1="1105" y1="421" x2="1105" y2="570"/>
+    <line x1="1105" y1="570" x2="990" y2="570"/>
+  </g>
+
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" font-size="26">
+    <text x="700" y="170" text-anchor="middle">Receipt of letter / e-mail / application</text>
+    <text x="700" y="300" text-anchor="middle">Diary number, registration &amp; acknowledgement</text>
+    <text x="700" y="430" text-anchor="middle">Scrutiny by dealing assistant / section</text>
+    <text x="700" y="560" text-anchor="middle">Rule check, facts, records &amp; draft note</text>
+    <text x="700" y="690" text-anchor="middle">Consultation, if required</text>
+    <text x="700" y="820" text-anchor="middle">Competent authority examines &amp; approves</text>
+    <text x="700" y="950" text-anchor="middle">Order / reply issued, dispatched &amp; filed</text>
+
+    <text x="1025" y="452" font-size="22">If clarification / correction is needed:</text>
+    <text x="1035" y="485" font-size="22">return to concerned section or applicant,</text>
+    <text x="1035" y="515" font-size="22">record the reason, and resume processing.</text>
+  </g>
+
+  <!-- arrowheads -->
+  <g fill="#000">
+    <polygon points="700,245 693,232 707,232"/>
+    <polygon points="700,375 693,362 707,362"/>
+    <polygon points="700,505 693,492 707,492"/>
+    <polygon points="700,635 693,622 707,622"/>
+    <polygon points="700,765 693,752 707,752"/>
+    <polygon points="700,895 693,882 707,882"/>
+  </g>
+</svg>
